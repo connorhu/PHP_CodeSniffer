@@ -19,6 +19,8 @@ namespace PHP_CodeSniffer;
 use Composer\Autoload\ClassLoader;
 use Exception;
 
+require_once __DIR__.'/vendor/autoload.php';
+
 if (class_exists('PHP_CodeSniffer\Autoload', false) === false) {
     class Autoload
     {
