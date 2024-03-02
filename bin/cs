@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+/**
+ * PHP Code Sniffer
+ *
+ * @author    Greg Sherwood <gsherwood@squiz.net>
+ * @copyright 2024 PHP Code Sniffer community
+ * @license   https://github.com/PHPCSStandards/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ */
+
+require_once __DIR__.'/../autoload.php';
+
+$application = new \PHP_CodeSniffer\Console\Application();
+$application->run();
